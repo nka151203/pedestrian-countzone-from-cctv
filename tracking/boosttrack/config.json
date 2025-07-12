@@ -1,0 +1,4 @@
+{
+  "model_path": "D:/python/countzone-from-cctv/model/yolov11m_mot20_det/weights/epoch38.pt",
+  "output_path": "D:/python/countzone-from-cctv/tracking/video_output.mp4"
+}

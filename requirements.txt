@@ -1,0 +1,14 @@
+ultralytics
+scikit-learn
+opencv-python
+spacy
+pandas
+configparser
+torch
+numpy
+scipy
+torchreid
+gdown
+tensorboard
+yacs
+termcolor

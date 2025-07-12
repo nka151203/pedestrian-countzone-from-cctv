@@ -1,0 +1,6 @@
+detecting/MOT20
+detecting/MOT20.zip
+tracking/video
+model/yolov11m_mot20_det/weights/epoch38.pt
+tracking/video.mp4
+tracking/boosttrack/external/weights/osnet_ain_ms_d_c.pth.tar

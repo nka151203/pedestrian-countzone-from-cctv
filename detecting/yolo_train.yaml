@@ -1,0 +1,6 @@
+name:
+  - pedestrian
+nc: 1
+path: ./detecting/MOT20
+train: train/images
+val: test/images
