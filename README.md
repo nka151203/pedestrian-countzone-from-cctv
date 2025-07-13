@@ -1,12 +1,13 @@
 # CountZone: Applications for counting the number of people appearing in your custom ROI (Region of Interest)
-
+![alt text](demo.png)
 ## 1. Overview
 
-**Scenario:** CountZone - The software is developed to assist users in monitoring and counting the number of people appearing within a specific Region of Interest (ROI) in a video. Tracking the number of people in an ROI plays a significant role in analyzing how attractive a particular area in the CCTV. For example, the number of people interested in a booth at a supermarket can reveal local consumer preferences; or monitoring which entertainment zones attract the most attention in a shopping mall can offer insights into public interest. These applications inspired me to create a small-scale software solution that allows users to count the number of people within a custom-defined ROI.
+**Scenario:** CountZone - The software is developed to assist users in monitoring and counting the number of people appearing within a specific Region of Interest (ROI) in a video. Tracking the number of people in an ROI plays a significant role in analyzing how attractive a particular area in the CCTV. For example, the number of people interested in a booth at a supermarket can reveal local consumer preferences; or monitoring which entertainment zones attract the most attention in a shopping mall can offer insights into public interest. These applications inspired me to create a small-scale software solution that allows users to count the number of people within a custom-defined ROI. \
+**Video Demo:** https://github.com/nka151203/pedestrian-countzone-from-cctv
 
 ---
 ## 2. Dataset and Tech
-**Dataset**: MOT-20 Challenge https://motchallenge.net/data/MOT20/\
+**Dataset**: MOT-20 Challenge https://motchallenge.net/data/MOT20/ \
 **YOLOv11**: A famous framework for detection https://docs.ultralytics.com/vi/models/yolo11/ \
 **Boostrack++**: A SOTA tracking Algorithm https://github.com/vukasin-stanojevic/BoostTrack 
 
@@ -60,6 +61,7 @@ python gui.py
 - Tracking Algorithm still aren't set up on CUDA, so tracking is quite slow because it's running on CPU
 
 - In the future, I hope to improve the generalization capabilities of the model to handle a wider range of camera scenarios more effectively. Additionally, I aim to expand beyond basic counting by exploring more advanced tasks such as anomaly detection, multi-camera object tracking, and measuring engagement levels — for example, by calculating the duration a person stays within a specific area for analystic.
+- Real-time is always my biggest dream.
 
 ---
 
@@ -67,3 +69,4 @@ python gui.py
 **If there is any copyright issue or you need help, please contact:**
 - Author: Nguyen Khac An
 - Email: nka151203@gmail.com
+

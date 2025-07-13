@@ -160,9 +160,9 @@ class PersonTracker:
                         yb_1 = y2
                         xb_2 = x2
                         yb_2 = y2
-                        cbx = (xb_1+yb_1)/2 #center bottom X
+                        cbx = (xb_1+xb_2)/2 #center bottom X
                         cby = (yb_2+yb_1)/2 #center bottom Y
-                        cby = cby - 0.1*cby
+                        cby = cby - 0.09*cby
                         cb = (cbx, cby) #center bottom
                         track_id = int(track[4])
                         if check_point_int(points, cb):
