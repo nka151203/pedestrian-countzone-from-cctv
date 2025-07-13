@@ -3,7 +3,7 @@
 ## 1. Overview
 
 **Scenario:** CountZone - The software is developed to assist users in monitoring and counting the number of people appearing within a specific Region of Interest (ROI) in a video. Tracking the number of people in an ROI plays a significant role in analyzing how attractive a particular area in the CCTV. For example, the number of people interested in a booth at a supermarket can reveal local consumer preferences; or monitoring which entertainment zones attract the most attention in a shopping mall can offer insights into public interest. These applications inspired me to create a small-scale software solution that allows users to count the number of people within a custom-defined ROI. \
-**Video Demo:** https://github.com/nka151203/pedestrian-countzone-from-cctv
+**Video Demo:** https://www.youtube.com/watch?v=vPDEHI7xsS0
 
 ---
 ## 2. Dataset and Tech
